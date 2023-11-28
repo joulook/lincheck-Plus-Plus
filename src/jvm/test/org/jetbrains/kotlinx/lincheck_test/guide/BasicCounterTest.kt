@@ -13,6 +13,7 @@ package org.jetbrains.kotlinx.lincheck_test.guide
 import org.jetbrains.kotlinx.lincheck.*
 import org.jetbrains.kotlinx.lincheck.annotations.*
 import org.jetbrains.kotlinx.lincheck.strategy.managed.modelchecking.*
+import org.jetbrains.kotlinx.lincheck.strategy.managed.modelchecking.Trust.TrustOptions
 import org.jetbrains.kotlinx.lincheck.strategy.stress.*
 import org.junit.*
 
@@ -39,6 +40,15 @@ class BasicCounterTest {
     fun stressTest() = StressOptions().check(this::class) // the magic button
 
     //@Test // TODO: Please, uncomment me and comment the line below to run the test and get the output
-    @Test(expected = AssertionError::class)
+    //@Test(expected = AssertionError::class)
+
+    //@Test // TODO: Please, uncomment me and comment the line below to run the test and get the output
     fun modelCheckingTest() = ModelCheckingOptions().check(this::class)
+
+    /*
+     * The following line will invoke the trust model checking procedure for verifying concurrent scenarios
+     */
+    //@Test // TODO: Please, uncomment me and comment the line below to run the test and get the output
+    //fun trustTest() = TrustOptions().check(this::class)
+
 }

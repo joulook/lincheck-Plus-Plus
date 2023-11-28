@@ -46,7 +46,7 @@ public class CTestStructure {
     }
 
     /**
-     * Constructs {@link CTestStructure} for the specified test class.
+     * Constructs {@link CTestStructure} for the specified test classc.
      */
     public static CTestStructure getFromTestClass(Class<?> testClass) {
         Map<String, OperationGroup> groupConfigs = new HashMap<>();
