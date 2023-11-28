@@ -14,4 +14,4 @@ Proceedings of the ACM on Programming Languages 6, no. POPL (2022): 1-28.
 
 ## Acknowledgements
 
-This is a fork of the [LinCheck framework](https://github.com/JetBrains/lincheck) by JetBrains.
+This is a fork of the [Lincheck framework](https://github.com/JetBrains/lincheck) by JetBrains.
