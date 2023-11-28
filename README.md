@@ -9,7 +9,7 @@ To be added.
 ## References
 <a id="1">[1]</a> 
 Kokologiannakis, Michalis, Iason Marmanis, Vladimir Gladstein, and Viktor Vafeiadis.
-Truly stateless, optimal dynamic partial order reduction.
+[Truly stateless, optimal dynamic partial order reduction](https://plv.mpi-sws.org/genmc/popl2022-trust.pdf).
 Proceedings of the ACM on Programming Languages 6, no. POPL (2022): 1-28.
 
 ## Acknowledgements
